@@ -1,0 +1,64 @@
+body
+{
+    background-color: black;
+}
+
+button
+{
+border-radius: 5px;
+}
+
+#MainContainer
+{
+    margin: auto;
+    width: 50%;
+}
+
+#Screen
+{
+    margin: 200px auto 10px auto;
+    width: 25%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+
+#MessagingArea
+{
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+#SubmitArea
+{
+    /* margin: 10px 0px 20px 0px; */
+    margin: auto;
+    width: 100%;
+}
+
+#MessageInput
+{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#Submit
+{
+    margin-top: 10px;
+    display: none;
+    /* display: block; */
+}
+
+#UserSwitch
+{
+    margin: auto;
+    width: 25%;
+}
